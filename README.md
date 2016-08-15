@@ -8,15 +8,17 @@ Scientific Git practices -- Monday 15 August-- Lab meeting
 git init  # to initialize a directory with git
 
 git remote add origin path/to/git-repo  # connect your local dir to git repo
-git add .   # add everything in the dir to git, so that git keeps track of them
-git add -u  # add every file that has been updated
+git add .                         # add everything in the dir to git, so that git keeps track of them
+git add -u                        # add every file that has been updated
 
-git status  # returns an status of your local git directory
-git reset HEAD #return to the latest commit
+git status                        # returns an status of your local git directory
+git reset HEAD                    #return to the latest commit
 
-git commit -m "commit message" # commit changes to git
+git commit -m "commit message"    # commit changes to git
 
-git push -u origin master  # push the changes in the local directory to the remote(github) repository
+git push -u origin master         # push the changes in the local directory to the remote(github) repository
+
+git pull     # pull the changes from the remote repository to the local branch. Required to be done every time, before you're going to make a change 
 
 
 ```
